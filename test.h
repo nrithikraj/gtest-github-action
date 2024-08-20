@@ -1,4 +1,3 @@
-#include "test.cpp";
-
+int printColorMap();
 
  
