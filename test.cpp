@@ -1,6 +1,8 @@
 #include <iostream>
 
 #include <assert.h>
+
+#include "test.h"
  
 int printColorMap() {
 
