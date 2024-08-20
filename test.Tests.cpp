@@ -6,3 +6,4 @@ int exp = 25;
 int actual = printColourCode();
 ASSERT_EQ(exp,actual);
 }
+
