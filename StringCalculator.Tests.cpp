@@ -48,7 +48,7 @@ TEST(string_calculator_addwhen_passed_negative_numbers,throws_an_exception_listi
   //Ac
   //Assert
   ASSERT_THROW(calculator.Add(input),invalid_argument);
-  ASSERT_That(LastException<invalid_argument>().what(), Equals("Negatives not allowed: -2,-4"));
+  ASSERT_THAT(LastException<invalid_argument>().what(), Equals("Negatives not allowed: -2,-4"));
  
 }
 
