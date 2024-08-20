@@ -44,9 +44,7 @@ TEST(string_calculator_add_when_passed_two_comma_delimited_numbers,returns_their
 }
 TEST(string_calculator_addwhen_passed_negative_numbers,throws_an_exception_listing_invalid_values){
   StringCalculator calculator;
-  string input=""1,-2,-4,5";
-  //Ac
-  //Assert
+  string input="1,-2,-4,5";
   ASSERT_THROW(calculator.Add(input),invalid_argument);
  
 }
