@@ -20,6 +20,7 @@ add_executable(
   cleancode
   StringCalculator.cpp
   StringCalculator.Tests.cpp
+  DataDriven.Tests.cpp
   
 )
 target_link_libraries(
